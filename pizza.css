@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(202, 128, 17);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box {
+  border-style: groove;
+  border-color: chocolate;
+  background-color: rgb(233, 202, 30);
+  color: rgb(207, 22, 22);
+  margin: auto;
+  width: 65%;
+
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom {
+  border-style: groove;
+  border-color: chocolate;
+  background-color: rgb(201, 192, 149);
+  color: rgb(2, 2, 2);
+  margin: auto;
+  width: 65%;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.pizza {
+  position: relative;
+
+}
+
+.base {
+  position: absolute;
+  top: 10px;
+
+}
+
+.pep {
+  position: absolute;
+  top: 10px;
+}
+
+.mush {
+  position: absolute;
+  top: 10px;
+}
+
+.ol {
+  position: absolute;
+  top: 10px;
+}
+
+.saus {
+  position: absolute;
+  top: 10px;
+}
+
+img {
+  max-width: 350px;
+
+}
+
+.display {
+  text-align: center;
+}
